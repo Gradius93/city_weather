@@ -9,7 +9,9 @@
     <title>City Weather</title>
   </head>
   <body>
+
     <div class="container my-5 mx-auto">
+
       <h1 class="text-muted text-center my-4">City Weather</h1>
 
       <form class="change-location my-4 text-center text-muted" action="index.html" method="post">
@@ -19,15 +21,19 @@
 
       <div class="card d-none shadow-lg rounded">
         <img src="https://via.placeholder.com/400x300" class="time card-img-top">
-      </div>
-      <div class="text-muted text-uppercase text-center details">
-        <h5 class="my-3">City name</h5>
+        <div class="icon bg-light mx-auto text-center">
+            <!-- icon here later -->
+        </div>
+        <div class="text-muted text-uppercase text-center details">
+          <h5 class="my-3">City name</h5>
             <div class="my-3">Weather condition</div>
             <div class="display-4 my-4">
               <span>temp</span>
               <span>&deg;C</span>
             </div>
+        </div>
       </div>
-    </div>
+    <script src="scripts/forecast.js"></script>
+  <script src="scripts/app.js"></script>
   </body>
 </html>
